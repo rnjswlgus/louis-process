@@ -1,0 +1,166 @@
+@charset 'uft-8';
+@import url('notosanskr/NotoSansKR.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {}
+
+/*공통영역*/
+.clearfix:after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.header {
+    position: relative;
+    display: block;
+    height: 829px;
+    background: url('../images/header_back.png') no-repeat center;
+    background-size: cover;
+}
+
+.h-pc img {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.overview {
+    position: relative;
+    display: block;
+    height: 459px;
+    background-color: #be8692;
+}
+
+.over_tit img {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.strategy {
+    position: relative;
+    display: block;
+    height: 1017px;
+    background-color: #faf9f8;
+}
+
+.strate_tit img {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.color {
+    position: relative;
+    display: block;
+    height: 759px;
+    background-color: #ededed;
+}
+
+.color_1 img {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.design_1 {
+    position: relative;
+    display: block;
+    height: 895px;
+    background-color: #786c8d;
+}
+
+
+.design_2 {
+    position: relative;
+    display: block;
+    height: 1795px;
+    background-color: #faf9f8;
+}
+
+
+.footer {
+    position: relative;
+    display: block;
+    height: 242px;
+    background-color: #d08383;
+}
+
+
+.de_img img {
+    position: absolute;
+    top: -1320px;
+    left: 150px;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.f-bt1 {
+    position: absolute;
+    top: 50%;
+    left: 630px;
+    transform: translateY(-50%);
+    display: block;
+    width: 244px;
+    height: 64px;
+    background-color: #fff;
+    color: #d08383;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    line-height: 2;
+}
+
+.f-bt2 {
+    position: absolute;
+    top: 50%;
+    right: 630px;
+    transform: translateY(-50%);
+    display: block;
+    width: 244px;
+    height: 64px;
+    background-color: #fff;
+    color: #d08383;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    line-height: 2;
+}
